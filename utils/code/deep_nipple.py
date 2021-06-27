@@ -7,6 +7,7 @@ from utils.code.aux_func import seg2bbox, predict
 # from aux_func import seg2bbox, predict
 
 def BlurNips(image_dir):
+    # Blur all the nips found on any .png images in the image_dir
     # make sure image_dir doesnt end in \ 
     # make into path obj
     image_path = Path(image_dir)
