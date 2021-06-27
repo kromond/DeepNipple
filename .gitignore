@@ -1,0 +1,5 @@
+*.ipynb
+*.pyc
+*.pkl
+*.json
+.ipynb_checkpoints
